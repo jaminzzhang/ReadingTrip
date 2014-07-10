@@ -1,3 +1,4 @@
+
 #########################
 # .gitignore file for Xcode4 / OS X Source projects
 #
@@ -19,7 +20,6 @@
  
 .DS_Store
 *.swp
-#*.lock  Podefile.lock should be committed
 profile
  
  
@@ -136,3 +136,13 @@ xcuserdata
 # UNKNOWN: recommended by others, but I can't discover what these files are
 #
 # ...none. Everything is now explained.
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control?
+#
+Pods/
+#*.lock  Podefile.lock should be committed
+
